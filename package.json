@@ -3,6 +3,7 @@
 	"version": "0.1.0",
 	"description": "Shows an image next to a heading and a short descriptive text",
 	"author": "Florian Huehn (hattedsquirrel.net)",
+	"license": "GPL-3.0",
 	"main": "build/index.js",
 	"scripts": {
 		"build": "wp-scripts build",

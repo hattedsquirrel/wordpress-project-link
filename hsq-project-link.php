@@ -4,6 +4,8 @@
  * Description:     Shows an image next to a heading and a short descriptive text
  * Version:         0.1.0
  * Author:          Florian Huehn (hattedsquirrel.net)
+ * License:         GPL-3.0
+ * License URI:     https://www.gnu.org/licenses/gpl-3.0.html
  * Text Domain:     hsq-project-link
  *
  * @package         hsq
