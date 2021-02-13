@@ -1,0 +1,15 @@
+{
+	"apiVersion": 2,
+	"name": "hsq/hsq-project-link",
+	"title": "Poject Link",
+	"category": "widgets",
+	"icon": "align-pull-left",
+	"description": "Shows an image next to a heading and a short descriptive text",
+	"textdomain": "hsq-project-link",
+	"supports": {
+		"html": false
+	},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

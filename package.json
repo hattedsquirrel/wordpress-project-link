@@ -1,0 +1,26 @@
+{
+	"name": "hsq-project-link",
+	"version": "0.1.0",
+	"description": "Shows an image next to a heading and a short descriptive text",
+	"author": "Florian Huehn (hattedsquirrel.net)",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"format:js": "wp-scripts format-js",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"start": "wp-scripts start",
+		"packages-update": "wp-scripts packages-update"
+	},
+	"dependencies": {
+		"@wordpress/block-editor": "^5.2.6",
+		"@wordpress/block-library": "^2.28.3",
+		"@wordpress/blocks": "^7.0.3",
+		"@wordpress/element": "^2.19.1",
+		"@wordpress/i18n": "^3.18.0",
+		"@wordpress/icons": "^2.9.1"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^13.0.3"
+	}
+}
