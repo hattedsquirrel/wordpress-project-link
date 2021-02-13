@@ -5,16 +5,23 @@
 	display: table;
 }
 
-.wp-block-hsq-hsq-project-link > * {
-	display: flex;
-	clear: none;
-	min-width: 150px;
-}
-
 .wp-block-hsq-hsq-project-link figure {
 	width: 300px;
 	min-width: 0;
 	min-height: 80px;
 	float: left;
 	margin-right: 10px;
+}
+
+.wp-block-hsq-hsq-project-link > * {
+	clear: none;
+}
+
+.wp-block-hsq-hsq-project-link figure+*::before {
+	/* defines the minimum width for what is right of image, i.e. the 
+	   heading and text, before it breaks to below the image */
+	content: "";
+	display: table;
+	min-width: 150px;
+	white-space: normal !important;
 }

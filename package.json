@@ -1,6 +1,6 @@
 {
 	"name": "hsq-project-link",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Shows an image next to a heading and a short descriptive text",
 	"author": "Florian Huehn (hattedsquirrel.net)",
 	"license": "GPL-3.0",

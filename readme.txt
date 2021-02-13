@@ -3,7 +3,7 @@ Contributors:      Florian Huehn (hattedsquirrel.net)
 Tags:              block
 Requires at least: 5.6.0
 Tested up to:      5.6.0
-Stable tag:        0.1.0
+Stable tag:        0.1.1
 Requires PHP:      7.0.0
 
 Shows an image next to a heading and a short descriptive text
@@ -25,13 +25,11 @@ your own. This can be easily changed in the source code, though ("templateLock")
 
 == Screenshots ==
 
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
-(or jpg, jpeg, gif).
-2. This is the second screen shot
+/assets/screenshot-1.png
 
 == Changelog ==
+= 0.1.1 =
+* Reworked the css code. Previous version had problems with links.
 
 = 0.1.0 =
 * Release
